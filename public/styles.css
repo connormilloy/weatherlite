@@ -1,0 +1,17 @@
+.input-info{
+    margin-top: 50px;
+}
+
+.fade-in{
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(25%);
+    }
+    to{
+        opacity: 1;
+    }
+}
