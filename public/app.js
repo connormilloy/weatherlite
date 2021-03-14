@@ -22,7 +22,7 @@ function displayWeather(obj){
     $("#card-container").append(
         `<div class="card fade-in" id="weather-display" style="width: 20rem; margin: 0 auto; margin-top: 50px; text-align: center;">
             <div class="card-body">
-                <h5 class="card-title" style="font-size: 30px;">${obj.name} <img src="http://openweathermap.org/img/w/${obj.weather[0].icon}.png"></h5>
+                <h5 class="card-title" style="font-size: 30px;">${obj.name} <img src="https://openweathermap.org/img/w/${obj.weather[0].icon}.png"></h5>
                 <p class="card-text">Current Weather: ${obj.weather[0].description}<br>Temperature: ${temp.toFixed(0)}°c<br>Average Wind Speed: ${obj.wind.speed} mph</p>
             </div>
         </div>`
